@@ -14,6 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }, {useUnifiedTopology: true}))
 // parse requests of content-type - application/json
 app.use(bodyParser.json())
 
+// allow orgin
 app.use((req, res, next) => {
     res.header("Access-control-Allow-Origin", "*");
     res.header("Access-control-Allow-Headers", "Origin, x-Requested-With, Content-Type, Accept");
