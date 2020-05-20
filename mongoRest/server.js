@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 
 } )
 
-
+//this is nethaji
 
 // define a simple route
 app.get('/', (req, res) => {
